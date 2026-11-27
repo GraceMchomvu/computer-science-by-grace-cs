@@ -32,18 +32,23 @@ The home page includes a short FAQ (free access, syllabuses, past papers, Premiu
 
 `assets/motion.js` uses GSAP 3.15.1 (ScrollTrigger, SplitText and DrawSVGPlugin), bundled locally in `assets/vendor/` under GreenSock's free Standard License (https://gsap.com/standard-license). Heavy effects run on desktop only, and all motion is switched off for visitors who prefer reduced motion. Every page still works and shows all content without JavaScript.
 
-## Photo credits
+## Photos
 
-All photos are from [Pexels](https://www.pexels.com) under the [Pexels License](https://www.pexels.com/license/) (free to use, including commercially, with no attribution required; credited here as a courtesy). They were resized and converted to WebP. The people shown do not endorse this site.
+All photos are original images created for Computer Science By Grace.CS (AI-generated, no stock photos). Web copies are cropped, resized to 800–1400 px and converted to WebP by `gb13/photos.py` in the build folder.
 
-| File | Used for | Photographer | Source |
-|---|---|---|---|
-| `assets/img/photos/hero-student-books.webp` | Home hero | Monstera Production | https://www.pexels.com/photo/happy-black-man-showing-books-in-university-6237892/ |
-| `assets/img/photos/student-library.webp` | Home "Why Revise Here?" panel | Mikhail Nilov | https://www.pexels.com/photo/a-man-in-white-shirt-writing-on-the-book-9158721/ |
-| `assets/img/photos/student-notebook.webp` | IGCSE 0478 level card + page hero | Zen Chung | https://www.pexels.com/photo/cheerful-african-american-student-studying-with-open-workbook-5537560/ |
-| `assets/img/photos/it-class-accra.webp` | AS 9618 level card + page hero | Zeal Creative Studios | https://www.pexels.com/photo/focused-students-in-it-workshop-in-accra-33920044/ |
-| `assets/img/photos/student-laptop-window.webp` | A Level 9618 level card + page hero | Mikhail Nilov | https://www.pexels.com/photo/a-woman-writing-in-notebook-looking-the-laptop-7584770/ |
-| `assets/img/photos/student-laptop-smile.webp` | Useful content: Paper 4 practical pack | Tima Miroshnichenko | https://www.pexels.com/photo/man-using-a-laptop-5198239/ |
-| `assets/img/photos/laptop-lawn.webp` | Useful content: IGCSE revision pack + 404 page | Ketut Subiyanto | https://www.pexels.com/photo/crop-black-student-with-laptop-and-papers-on-green-lawn-4560079/ |
-| `assets/img/photos/students-exam-prep.webp` | Useful content: Exam preparation | Monstera Production | https://www.pexels.com/photo/concentrated-black-men-studying-at-table-6238029/ |
-| `assets/img/photos/student-holding-laptop.webp` | Home call-to-action panel | Mikhail Nilov | https://www.pexels.com/photo/a-woman-smiling-holding-laptop-7584674/ |
+| File | Used for |
+|---|---|
+| `assets/img/photos/gcs-hero-pair-coding.webp` | Home hero |
+| `assets/img/photos/gcs-why-group-revision.webp` | Home "Why Revise Here?" panel |
+| `assets/img/photos/gcs-igcse-card.webp` | IGCSE 0478 level card |
+| `assets/img/photos/gcs-igcse-hero.webp` | IGCSE 0478 page hero |
+| `assets/img/photos/gcs-as-card.webp` | AS 9618 level card |
+| `assets/img/photos/gcs-as-hero.webp` | AS 9618 page hero |
+| `assets/img/photos/gcs-alevel-card.webp` | A Level 9618 level card |
+| `assets/img/photos/gcs-alevel-hero.webp` | A Level 9618 page hero |
+| `assets/img/photos/gcs-paper4-card.webp` | Useful content: Paper 4 practical pack |
+| `assets/img/photos/gcs-boolean-card.webp` | Useful content: IGCSE Boolean logic |
+| `assets/img/photos/gcs-pastpaper-card.webp` | Useful content: Past-paper practice |
+| `assets/img/photos/gcs-cta-igcse-girl.webp` | Home call-to-action panel |
+| `assets/img/photos/gcs-premium-hero.webp` | Premium page hero |
+| `assets/img/photos/gcs-404-exam-prep.webp` | 404 page |

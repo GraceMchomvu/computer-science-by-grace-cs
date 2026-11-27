@@ -371,7 +371,7 @@ html[data-theme="dark"]{.cb{opacity:.2}.cb.c0{color:var(--peri)}}
 .h-line-mask{padding-bottom:.28em;margin-bottom:-.28em}
 .hero-title .ch{display:inline-block}
 
-/* ---------- photos (Pexels, see README credits) ---------- */
+/* ---------- photos (original Computer Science By Grace.CS photos, see README) ---------- */
 .photo{position:absolute;overflow:hidden;background:var(--surface-2)}
 .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;scale:1.14;filter:none}
 .hero-art .photo{inset:9% 7% 3% 11%;border-radius:46% 54% 48% 52%/52% 44% 56% 48%;box-shadow:0 30px 60px rgba(61,52,139,.28);z-index:1}
@@ -396,6 +396,14 @@ html[data-theme="dark"]{.cb{opacity:.2}.cb.c0{color:var(--peri)}}
 .cta>img{display:none}
 .site-footer .foot-bottom a{color:inherit}
 @media (max-width:980px){.cta .photo{height:260px}}
+/* GB-13: original 2K photos are pre-cropped, so keep the zoom gentle and the faces in frame */
+.photo img,.level .art img,.ucard .img img{scale:1.04}
+.hero-art .photo img{object-position:55% 40%}
+.page-art .photo img{object-position:50% 45%}
+.level .art img{object-position:50% 40%}
+.ucard .img img{object-position:50% 45%}
+.why-art img{object-position:50% 45%}
+.cta .photo img{object-position:45% 40%}
 
 /* ---------- on-site reader (notes & slides) ---------- */
 body.reader-body{
