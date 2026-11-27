@@ -1,0 +1,47 @@
+# Computer Science By Grace.CS — full summary
+
+Computer Science By Grace.CS publishes free revision materials for two Cambridge Computer Science courses: IGCSE 0478 and AS & A Level 9618. There is no account or sign-up. The brand name is Computer Science By Grace.CS.
+
+## What is free
+
+Notes, slides, homework, original worksheets and a revision pack are read in an on-site reader (watermarked page images, no download button). Cambridge past-paper practice, mark schemes, Paper 4 week exercises and Word starter files remain downloadable. Everything is organised by official syllabus topic, with search and filters on each level page.
+
+## IGCSE Computer Science 0478
+
+Page: https://gracemchomvu.github.io/computer-science-by-grace-cs/igcse-0478.html
+
+For Year 10 and Year 11. Covers data representation, data transmission, hardware, automated and emerging technologies, algorithm design and problem-solving, programming and Boolean logic, plus end-of-term revision, tests and mark schemes.
+
+## AS Level Computer Science 9618
+
+Page: https://gracemchomvu.github.io/computer-science-by-grace-cs/as-9618.html
+
+For Year 12, AS topics 1–12: hardware, processor fundamentals, system software, security, ethics, databases, algorithms, data types, programming and software development, with worksheets, quizzes and mark schemes.
+
+## A Level Computer Science 9618
+
+Page: https://gracemchomvu.github.io/computer-science-by-grace-cs/a-level-9618.html
+
+For Year 13, A Level topics 13–20 (data representation, communication and internet technologies, hardware and virtual machines, system software, security, artificial intelligence, computational thinking and further programming), plus a four-week Paper 4 practical programme with notes, past-paper style exercises, Python evidence starter files and a full practice paper.
+
+## Premium plans
+
+Page: https://gracemchomvu.github.io/computer-science-by-grace-cs/premium.html
+
+Optional paid help on top of the free materials. Prices are not published on the site.
+
+- Basic: worked video solutions to past papers, topic quizzes with instant marking, a monthly downloadable revision pack, and the protected online notes and slides
+- Pro (most popular): everything in Basic, plus timed practice exams personally marked with feedback, a weekly live group revision class, and a WhatsApp Q&A group
+- Exam Bootcamp: an intensive 4 to 6 weeks before the May/June and Oct/Nov series, with a Paper 2 and Paper 4 programming focus, exam technique and targeted past-paper practice
+- One-to-one tutoring: personal online lessons on weak topics, with flexible scheduling
+
+Ask for pricing on WhatsApp or by email. Each plan on the Premium page has a ready-made message.
+
+## Contact
+
+- WhatsApp: +255760367002 — https://wa.me/255760367002
+- Email: grace.josh.cs@gmail.com
+
+## Copyright
+
+Past-paper questions are © Cambridge University Press & Assessment (UCLES), included for revision practice only. Computer Science By Grace.CS is not affiliated with Cambridge.

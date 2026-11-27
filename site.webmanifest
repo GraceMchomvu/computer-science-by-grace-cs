@@ -1,0 +1,15 @@
+{
+  "name": "Computer Science By Grace.CS",
+  "short_name": "Grace.CS",
+  "description": "Free notes, past papers and mark schemes for Cambridge IGCSE Computer Science 0478 and AS & A Level Computer Science 9618.",
+  "start_url": "/computer-science-by-grace-cs/",
+  "scope": "/computer-science-by-grace-cs/",
+  "display": "standalone",
+  "background_color": "#3d348b",
+  "theme_color": "#3d348b",
+  "lang": "en",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

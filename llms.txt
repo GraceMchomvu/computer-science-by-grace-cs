@@ -1,0 +1,25 @@
+# Computer Science By Grace.CS
+
+> Free Cambridge Computer Science revision for IGCSE 0478 and AS & A Level 9618. No sign-up.
+
+Computer Science By Grace.CS is a free revision site for Cambridge IGCSE Computer Science (0478) and Cambridge International AS & A Level Computer Science (9618). Students can read notes and slides in an on-site reader, and download past-paper practice, mark schemes and starter files.
+
+The site is not affiliated with Cambridge. Past-paper questions are © Cambridge University Press & Assessment (UCLES) and are included for revision practice only.
+
+## Main pages
+
+- [Home](https://gracemchomvu.github.io/computer-science-by-grace-cs/): overview, how to use the site, and answers to common questions
+- [IGCSE Computer Science 0478](https://gracemchomvu.github.io/computer-science-by-grace-cs/igcse-0478.html): Year 10 and Year 11 notes, worksheets, Boolean logic, algorithms and flowcharts, programming, tests and mark schemes
+- [AS Level Computer Science 9618](https://gracemchomvu.github.io/computer-science-by-grace-cs/as-9618.html): Year 12 notes, worksheets, quizzes and mark schemes covering AS topics 1–12
+- [A Level Computer Science 9618](https://gracemchomvu.github.io/computer-science-by-grace-cs/a-level-9618.html): Year 13 notes for topics 13–20, plus a four-week Paper 4 practical programme
+- [Premium plans](https://gracemchomvu.github.io/computer-science-by-grace-cs/premium.html): optional extras — video solutions, marked practice exams, live classes, an exam bootcamp and one-to-one tutoring. Prices are sent on WhatsApp or email, not listed on the site
+
+## Contact
+
+- WhatsApp: +255760367002 — https://wa.me/255760367002
+- Email: grace.josh.cs@gmail.com
+
+## Optional
+
+- [Full summary](https://gracemchomvu.github.io/computer-science-by-grace-cs/llms-full.txt)
+- [Sitemap](https://gracemchomvu.github.io/computer-science-by-grace-cs/sitemap.xml)

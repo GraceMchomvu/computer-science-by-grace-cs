@@ -1,0 +1,35 @@
+# Computer Science By Grace.CS
+User-agent: *
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /assets/reader/p/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /assets/reader/p/
+
+Sitemap: https://gracemchomvu.github.io/computer-science-by-grace-cs/sitemap.xml
+
