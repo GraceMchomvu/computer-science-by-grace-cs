@@ -493,3 +493,12 @@ html[data-theme="dark"]{
 .faq-item[open] summary::after{content:"\2013"}
 .faq-item p{margin:0;padding:0 0 20px;color:var(--muted);max-width:70ch;line-height:1.55}
 .faq-item a{color:var(--link);font-weight:700}
+
+/* Paid mark-scheme request (no prices on the site) */
+.card-foot{flex-wrap:wrap}
+.card-actions{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;align-items:center}
+.btn-paid{background:#fff;border-color:var(--indigo);color:var(--indigo)}
+.btn-paid:hover{background:var(--indigo);border-color:var(--indigo);color:#fff;box-shadow:0 4px 0 var(--ink)}
+html[data-theme="dark"] .btn-paid{background:transparent;color:var(--peri);border-color:var(--peri)}
+html[data-theme="dark"] .btn-paid:hover{background:var(--peri);color:var(--ink);border-color:var(--peri)}
+.b-paid{background:var(--peri-soft);color:var(--indigo);border:1px solid var(--indigo)}
