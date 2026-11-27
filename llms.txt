@@ -2,7 +2,7 @@
 
 > Free Cambridge Computer Science revision for IGCSE 0478 and AS & A Level 9618. No sign-up.
 
-Computer Science By Grace.CS is a free revision site for Cambridge IGCSE Computer Science (0478) and Cambridge International AS & A Level Computer Science (9618). Students can read notes and slides in an on-site reader, and download past-paper practice, mark schemes and starter files.
+Computer Science By Grace.CS is a free revision site for Cambridge IGCSE Computer Science (0478) and Cambridge International AS & A Level Computer Science (9618). Students can read notes, slides, worksheets and past-paper practice in an on-site reader. Matching mark schemes for the topic-wise packs are available on request. Word starter files for Paper 4 remain downloadable.
 
 The site is not affiliated with Cambridge. Past-paper questions are © Cambridge University Press & Assessment (UCLES) and are included for revision practice only.
 
