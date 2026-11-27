@@ -47,6 +47,42 @@
     if (c.reduce) { unpend(); endIntro(); return; }
     root.classList.add('gsap-on');
     var splits = [];
+    var revealObs = [];
+    /* If ScrollTrigger misses (fast scroll, late layout, hash jump), never leave
+       entrance-tweened elements stuck at opacity:0 / clipped. Wait briefly so the
+       real animation can play first, then snap anything still hidden in view. */
+    function armReveal(els) {
+      var list = Array.isArray(els) ? els : q(els);
+      if (!list.length) return;
+      var inView = function (el) {
+        var r = el.getBoundingClientRect();
+        return r.width > 1 && r.height > 1 && r.top < window.innerHeight + 80 && r.bottom > -80;
+      };
+      var reveal = function (el, onlyIfVisible) {
+        if (!el || !el.isConnected || el.hidden) return;
+        if (onlyIfVisible && !inView(el)) return;
+        var cs = window.getComputedStyle(el);
+        if (cs.display === 'none') return;
+        var clip = cs.clipPath || cs.webkitClipPath || '';
+        var clipped = clip && clip !== 'none' && /inset\(\s*(100%|0(?:px)?\s+100%|100%\s+0)/.test(clip);
+        if (parseFloat(cs.opacity) < 0.05 || cs.visibility === 'hidden' || clipped) {
+          gsap.set(el, { autoAlpha: 1, y: 0, x: 0, rotation: 0, scale: 1, clearProps: 'clipPath' });
+        }
+      };
+      var kick = function () { list.forEach(function (el) { reveal(el, true); }); };
+      setTimeout(kick, 900);
+      setTimeout(kick, 2200);
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            setTimeout(function () { reveal(en.target, true); }, 700);
+          });
+        }, { rootMargin: '80px 0px', threshold: 0.01 });
+        list.forEach(function (el) { io.observe(el); });
+        revealObs.push(io);
+      }
+    }
 
     /* ================= 1. page-load intro (home, desktop, once per session, ~1.1 s) ================= */
     var introDelay = 0;
@@ -249,10 +285,15 @@
       });
     }
 
+    var safe = ['.feature', '.tip', '.ucard', '.card', '.plan-card', '[data-cta]', '.why-art', '.why-grid .tile', '.section-head h2', '.section-head p', '.toolbar', '.ucard .img'];
+    if (!(hs && c.desktop)) safe.push('.level');
+    armReveal(safe.join(', '));
+
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { ScrollTrigger.refresh(); });
     window.addEventListener('load', function () { ScrollTrigger.refresh(); }, { once: true });
 
     return function () {
+      revealObs.forEach(function (io) { try { io.disconnect(); } catch (e) {} });
       splits.forEach(function (s) { s.revert(); });
       root.classList.remove('gsap-on', 'hs-on');
     };

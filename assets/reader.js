@@ -6,8 +6,18 @@
   var PAGE_DIR = 'assets/reader/p/';
   var ORIGIN = 'https://gracemchomvu.github.io/computer-science-by-grace-cs';
 
+  /* Old bookmarks for notes that were later merged into a fuller document. */
+  var DOC_ALIASES = { dfe75ce5d568: 'f7b82d40fbd4' };
+
   var params = new URLSearchParams(location.search);
   var docId = (params.get('doc') || '').replace(/[^a-f0-9]/gi, '').slice(0, 12);
+  if (DOC_ALIASES[docId]) {
+    docId = DOC_ALIASES[docId];
+    try {
+      params.set('doc', docId);
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+    } catch (e) {}
+  }
 
   var titleEl = document.getElementById('reader-title');
   var kickerEl = document.getElementById('reader-kicker');
